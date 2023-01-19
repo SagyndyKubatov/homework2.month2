@@ -9,6 +9,18 @@ public abstract class Phone implements Printable{
         this.display = display;
     }
 
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setProcessor(String processor) {
+        this.processor = processor;
+    }
+
+    public void setDisplay(double display) {
+        this.display = display;
+    }
+
     public String getModel() {
         return model;
     }

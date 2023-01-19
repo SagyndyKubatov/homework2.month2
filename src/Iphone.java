@@ -2,6 +2,7 @@ public class Iphone extends Phone{
 
     public Iphone(String model, String processor, double display) {
         super(model, processor, display);
+
     }
 
     @Override

@@ -9,7 +9,7 @@ public class Main {
 
     }
 
-    public static String createObject(String className){
+    public static Object createObject(String className){
         switch (className){
             case "iphone":
                 Iphone iphone = new Iphone("Iphone 14","Apple A 15 Bionic",6.1);
